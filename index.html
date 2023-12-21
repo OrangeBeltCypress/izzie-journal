@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gratitude Journal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Your Name's Gratitude Journal</h1>
+    </header>
+    <section id="entries">
+        <!-- Entries will be dynamically added here using JavaScript -->
+    </section>
+    <section id="add-entry">
+        <form id="entry-form">
+            <label for="name">Your Name:</label>
+            <br>
+            <input type="text" id="name" required>
+            <br><br>
+            <label for="entry">Gratitude Entry:</label>
+            <br>
+            <textarea id="entry" rows="4" required></textarea>
+            <br>
+            <button type="button" onclick="addEntry()">Add Entry</button>
+        </form>
+    </section>
+    <footer>
+</body>
+</html>
